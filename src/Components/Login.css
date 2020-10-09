@@ -1,0 +1,33 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(252, 245, 252);
+}
+.login > button {
+  width: 300px;
+  background-color: #738adb;
+  color: #eff2f5;
+  font-weight: 800;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  outline: 0;
+  transition: 1s;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.login > button:hover {
+  background-color: rgb(20, 22, 22);
+  color: #99abeb;
+  box-shadow: 0 0 5px#738adb, 0 0 25px#738adb, 0 0 50px #738adb,
+    0 0 100px #738adb
+      /* inset 5px 5px 10px 2px rgba(244, 246, 248, 0.7),
+    inset -5px -5px 10px 2px rgba(243, 245, 247, 0.7) */;
+}
+.login > div > img {
+  object-fit: contain;
+  height: 150px;
+}

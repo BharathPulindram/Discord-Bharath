@@ -4,6 +4,7 @@
   align-items: center;
   color: rgb(73, 71, 71);
   padding: 10px;
+  border-bottom: 1px solid rgb(36, 35, 35);
 }
 .chatHeader__hash {
   color: gray;
