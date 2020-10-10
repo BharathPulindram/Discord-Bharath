@@ -39,7 +39,7 @@ db.collection('channels').onSnapshot(snapshot => (
   return (
     <div className="sidebar">
       <div className="sidebar__top">
-        <h3>Bharath Kumar</h3>
+        <h3>{user.displayName} </h3>
         <ExpandMoreIcon />
       </div>
       <div className="sidebar__channels">
@@ -77,7 +77,9 @@ db.collection('channels').onSnapshot(snapshot => (
         <div className="sidebar__profileInfo">
           <h3>{user.displayName} </h3>
           <p>{user.uid.substring(0,5)} </p>
-        </div>
+          <h5>Click image to SIGN OUT</h5>
+          
+                  </div>
         <div className="sidebar__profileIcons">
           <MicIcon />
           <HeadsetIcon />
